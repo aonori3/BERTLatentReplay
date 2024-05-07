@@ -1,7 +1,7 @@
 # BERTLatentReplay
 
 ## Overview
-This project investigates the use of Latent Replay, a technique proposed by Pellegrini et al. (2020), to mitigate this issue in the context of continual language learning. Three methods are evaluated: Baseline (Fine-tuning), Full Replay, and Latent Replay, across a series of tasks from the GLUE dataset, which encompasses a variety of natural language understanding challenges. Latent Replay involves storing and replaying the activations from an intermediate layer of BERT, rather than raw input examples.
+This project investigates the use of Latent Replay, a technique proposed by Pellegrini et al. (2020), to mitigate Catastrophic Forgetting in continual language learning. Three methods are evaluated: Baseline (Fine-tuning), Full Replay, and Latent Replay, across a series of tasks from the GLUE dataset, which encompasses a variety of natural language understanding challenges. Latent Replay involves storing and replaying the activations from an intermediate layer of BERT, rather than raw input examples.
 
 ## Data
 The GLUE datasets can be downloaded with `download_glue_data.py` script.
